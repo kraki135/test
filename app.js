@@ -1,1 +1,1 @@
-console.log('witaj testcjvnnjcvnj');
+console.log('witaj test');
