@@ -112,11 +112,22 @@ nav#main {
     color: white;
     text-shadow: 2px 1px black;
     border-bottom: 4px dotted black;
+     border-top: 4px solid transparent;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
+    transition: 0.1s border cubic-bezier(0, 1.38, 0.55, 0.07);
+}
+#main .nav-item a:hover {
+    border-left: 4px dotted black;
+    border-right: 4px dotted black;
+    border-top: 4px dotted black;
+    border-bottom: 4px solid transparent;
+    border-radius: 50px;
+    padding: 0 0.5em;
 }
 
+/*
 #main .nav-item::before,#main .nav-item::after {
     content: '';
     width: 50px;
@@ -139,6 +150,7 @@ nav#main {
     border-bottom-right-radius:10px;
     
 }
+*/
 .triger {
     display: none;
 }
