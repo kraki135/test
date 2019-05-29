@@ -42,7 +42,7 @@ body {
     position: relative;
     background-color: rgba(109, 109, 109, 0.89);
     width: 100%;
-    width: 100vw;
+    
     height: 100vh;
     /*
     padding: 0;
@@ -103,10 +103,11 @@ nav#main {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     position: fixed;
     top:0;
+    z-index: 999;
     
     
 }
-#main .nav-item {
+nav#main .nav-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +119,7 @@ nav#main {
 
     
 }
-#main .nav-item a {
+nav#main .nav-item a {
     text-decoration: none;
     color: white;
     text-shadow: 2px 1px black;
@@ -129,7 +130,7 @@ nav#main {
     cursor: pointer;
     transition: 0.1s border cubic-bezier(0, 1.38, 0.55, 0.07);
 }
-#main .nav-item a:hover {
+nav#main .nav-item a:hover {
     border-left: 4px dotted black;
     border-right: 4px dotted black;
     border-top: 4px dotted black;
@@ -139,7 +140,7 @@ nav#main {
 }
 
 /*
-#main .nav-item::before,#main .nav-item::after {
+nav#main .nav-item::before,nav#main .nav-item::after {
     content: '';
     width: 50px;
     height: 20px;
@@ -147,14 +148,14 @@ nav#main {
     margin: 0 0.5em;
     
 }
-#main .nav-item::before {
+nav#main .nav-item::before {
     top: 0;
     left: 0;
     background-color: #adadad;
     border-top-left-radius: 10px;
     
 }
-#main .nav-item::after {
+nav#main .nav-item::after {
     bottom: 0;
     right: 0;
     background-color: #3e4a62;
@@ -166,7 +167,7 @@ nav#main {
     display: none;
 }
 
-@media only screen and (max-width: 376px) and (max-height: 668px) {
+/*@media only screen and (max-width: 376px) and (max-height: 668px) {
     
  nav#main {
      height: 100%;
@@ -185,7 +186,7 @@ nav#main {
     grid-template-columns: 1fr;
    
 }
-}
+}*/
 
 
 
