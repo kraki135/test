@@ -79,7 +79,8 @@ body {
     -o-border-radius: 5px 40px 13px 30px;
     
 }
-.main-section .fas {
+.main-section .fas,.main-section .fab  {
+    margin-top: 50px;
     cursor: pointer;
     font-size: 5em;
     color: white;
@@ -92,6 +93,30 @@ body {
 .main-section .fas:hover{
     
     color: black;
+}
+
+.main-section:nth-child .fas:hover{
+    
+    color: white;
+}
+
+
+
+
+#contactSpan {
+    display: grid:
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#contactSpan .fas, #contactSpan .fab {
+    margin: 0.2em;
+    background-color: #403d3d96;
+    padding: 0.2em 1.5em;
+    border-radius: 0.19em;
+    transition: 0.24s background-color ease-out;
+}
+#contactSpan .fas:hover, #contactSpan .fab:hover {
+    background-color:#000000;
 }
 
 nav#main {
