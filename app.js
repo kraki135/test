@@ -29,14 +29,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 /**nie działa */
-var item = document.querySelectorAll('.nav_itemA');
-
-function eventHandler() {
-    console.log('działa');
-}
-
-item.addEventListener("click", eventHandler(event));
-
+//var navItem = document.getElementByClassName('main');
+      mainNav.addEventListener('click', function() {
+        //sideMenu.classList.remove('open');
+       if (mainNav.style.display === "grid") {
+        mainNav.style.display = "none";
+        trigerr.style.color = 'green';
+      } else {
+        mainNav.style.display = "grid";
+        this.style.color = 'red';
+      }
+      });
 /**
  * 
  * function navMENU() {
