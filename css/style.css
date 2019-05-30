@@ -314,6 +314,7 @@ nav#main .nav_item::after {
     
  nav#main {
      height: 100%;
+     display: none;
     }
     
     .triger {
@@ -340,6 +341,7 @@ nav#main .nav_item::after {
     
  nav#main {
      height: 100%;
+     display: none;
     }
     
      .triger {
