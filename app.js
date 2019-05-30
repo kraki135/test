@@ -6,12 +6,12 @@
  
      trigerr.addEventListener("click", function() {
     
-    if (mainNav.style.display === "none") {
+    if (mainNav.style.display === "none" || trigerr.style.color === "green") {
         mainNav.style.display = "grid";
-        this.style.color = 'red';
-      } else {
+        trigerr.style.color = 'red';
+      } else if (mainNav.style.display === "grid" || trigerr.style.color === "red") {
         mainNav.style.display = "none";
-        this.style.color = 'green';
+        trigerr.style.color = 'green';
       }
 });
 
