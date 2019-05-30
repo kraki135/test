@@ -32,7 +32,8 @@ window.addEventListener('DOMContentLoaded', function() {
    if(trigerr.style.display !== "none") {       
         mainNav.style.display = "none";
         trigerr.style.color = 'green';
-   } else {
-    console.log("dupa");
+   } else if(trigerr.style.display === "none"){
+        mainNav.style.display = "grid";
+        trigerr.style.display = "none";
    }
 });
