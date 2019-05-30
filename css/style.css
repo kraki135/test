@@ -201,7 +201,7 @@ nav#main .nav_item::after {
     
 }
 */
-.triger {
+/*.triger {
     display: none;
 }
 
@@ -239,9 +239,7 @@ nav#main .nav_item::after {
     }
 }
 @media only screen and (max-width: 476px) and (max-height: 780px) {
-    /*nav#main {
-     background-color: pink  
-    }*/
+    
      nav#main .nav_item a {
             text-shadow: 2px 2px 6px black;
     }
@@ -261,6 +259,93 @@ nav#main .nav_item::after {
     cursor: pointer;
     z-index: 1000;
 }  
+    nav#main {  
+    grid-template-columns: 1fr;
+   
+}
+    .main-section div
+    {
+    font-size: 2.3em;
+    }
+    #contactSpan {
+    position: fixed;
+    bottom: 0;
+    background-color: #3e4a62cc;
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    #contactSpan .fas, #contactSpan .fab {
+    
+    margin: 0;
+    font-size: xx-large;
+    background-color: #403d3d96;
+    padding: 0.2em 1.5em;
+    border-radius: 0.19em;
+    transition: 0.24s background-color ease-out;
+}
+    #contactSpan .fas:hover, #contactSpan .fab:hover {
+    background-color:#000000;
+}
+
+}
+*/
+.triger {
+    position: absolute;
+    top: 10px;
+    /*color: red;*/
+    right: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: #f5f5f5de;
+    padding: 0.2em;
+    border-radius: 0.3em;
+    border: 2px dotted black;
+    display: none;
+}
+
+@media only screen and (max-width: 376px) and (max-height: 668px) {
+    nav#main .nav_item a {
+            text-shadow: 2px 2px 6px black;
+    }
+    
+    
+ nav#main {
+     height: 100%;
+    }
+    
+    .triger {
+    display: block;
+    
+}  
+    nav#main {  
+    grid-template-columns: 1fr;
+   
+}
+    .main-section div
+    {
+    font-size: 2.3em;
+    }
+}
+@media only screen and (max-width: 476px) and (max-height: 780px) {
+    /*nav#main {
+     background-color: pink  
+    }*/
+     nav#main .nav_item a {
+            text-shadow: 2px 2px 6px black;
+    }
+    
+    
+ nav#main {
+     height: 100%;
+    }
+    
+     .triger {
+    display: block;
+    
+} 
     nav#main {  
     grid-template-columns: 1fr;
    
