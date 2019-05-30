@@ -90,15 +90,15 @@ body {
     -ms-transition: 0.15s color cubic-bezier(0.23, 1, 0.320, 1);
     -o-transition: 0.15s color cubic-bezier(0.23, 1, 0.320, 1);
 }
-.main-section .fas:hover{
+.main-section:nth-of-type(1) .fas:hover,.main-section:nth-of-type(2) .fas:hover, .main-section:nth-of-type(3) .fas:hover, .main-section:nth-of-type(4) .fas:hover{
     
     color: black;
 }
 
-.main-section:nth-child .fas:hover{
+/*.main-section:nth-child .fas:hover{
     
     color: white;
-}
+}*/
 
 
 
@@ -259,6 +259,28 @@ nav#main .nav_item::after {
     {
     font-size: 2.3em;
     }
+    #contactSpan {
+    position: fixed;
+    bottom: 0;
+    background-color: #3e4a62cc;
+    /* height: 50vh; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    #contactSpan .fas, #contactSpan .fab {
+    /* margin: 0.2em; */
+    margin: 0;
+    font-size: xx-large;
+    background-color: #403d3d96;
+    padding: 0.2em 1.5em;
+    border-radius: 0.19em;
+    transition: 0.24s background-color ease-out;
+}
+    #contactSpan .fas:hover, #contactSpan .fab:hover {
+    background-color:#000000;
+}
+
 }
 
 
