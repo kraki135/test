@@ -4,6 +4,8 @@
  var mainNav = document.querySelector('#main');   
  
  
+  /*
+  GŁÓWNE
      trigerr.addEventListener("click", function() {
     
     if (mainNav.style.display === "none" || trigerr.style.color === "green") {
@@ -26,6 +28,10 @@
         this.style.color = 'red';
       }
       });
+  
+  
+  
+  */
 
 
 /*
@@ -39,8 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 });
 */
+/*
 document.addEventListener('DOMContentLoaded', function() {
    if(trigerr.style.display === "none") {       
         mainNav.style.display = "grid";
    }
 });
+*/
