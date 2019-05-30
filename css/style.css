@@ -319,6 +319,7 @@ nav#main .nav_item::after {
     
     .triger {
     display: block;
+    color: green;
     
 }  
     nav#main {  
@@ -346,6 +347,7 @@ nav#main .nav_item::after {
     
      .triger {
     display: block;
+    color: green;
     
 } 
     nav#main {  
