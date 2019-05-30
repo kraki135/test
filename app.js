@@ -28,12 +28,19 @@
       });
 
 
-window.addEventListener('DOMContentLoaded', function() {
+/*
+document.addEventListener('DOMContentLoaded', function() {
    if(trigerr.style.display !== "none") {       
         mainNav.style.display = "none";
         trigerr.style.color = 'green';
    } else if(trigerr.style.display === "none"){
         mainNav.style.display = "grid";
         trigerr.style.display = "none";
+   }
+});
+*/
+document.addEventListener('DOMContentLoaded', function() {
+   if(trigerr.style.display === "none") {       
+        mainNav.style.display = "grid";
    }
 });
