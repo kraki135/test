@@ -114,7 +114,15 @@ body {
     padding: 0.2em 1.5em;
     border-radius: 0.19em;
     transition: 0.24s background-color ease-out;
+    overflow: hidden;
 }
+#contactSpan .fas a, #contactSpan .fab a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
 #contactSpan .fas:hover, #contactSpan .fab:hover {
     background-color:#000000;
 }
