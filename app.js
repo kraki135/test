@@ -29,6 +29,10 @@
 
 
 window.addEventListener('DOMContentLoaded', function() {
-mainNav.style.display = "none";
+   if(trigerr.style.display !== "none") {       
+        mainNav.style.display = "none";
         trigerr.style.color = 'green';
+   } else {
+    console.log("dupa");
+   }
 });
