@@ -7,3 +7,8 @@ https://github.com/marketplace/hound
 https://github.com/marketplace/imgbot
 to też zobacz https://github.com/marketplace/vuegg
 zobacz hello roman się tym zajmował https://github.com/marketplace/buddy
+
+
+zrób podobnie w .io/test tzn przewijanie full strony jak tylko ktoś ruszy kółkiem oraz slider działający na sekcjach na boki
+dać strzałki oraz event click arrow left oraz arrow right
+https://alvarotrigo.com/fullPage/#page1  podobnie do tego
