@@ -6,50 +6,29 @@ html,body {
     scroll-behavior: smooth;
     overflow-X: hidden;
 }
-/*
-body {
-     
-    overflow: hidden;
-}
-*/
-/*
-.container { 
-    width: 100%;
-    overflow: hidden;
-}
-*/
+
 .main-section:nth-of-type(1) {
-    background-image: url('../img/computer-1149148_1920.jpg');
-    
+    background-image: url('../img/computer-1149148_1920.jpg');    
 }
 .main-section:nth-of-type(2) {
     background-image: url('../img/code-coder-codes-2194062.jpg');
    
 }
 .main-section:nth-of-type(3) {
-    background-image: url('../img/clouds-crescent-moon-daylight-2162909.jpg');
-   
+    background-image: url('../img/clouds-crescent-moon-daylight-2162909.jpg');   
 }
 .main-section:nth-of-type(4) {
-    background-image: url('../img/macbook-926425_1920.jpg');
-   
+    background-image: url('../img/macbook-926425_1920.jpg');   
 }
 .main-section:nth-of-type(5) {
-    background-image: url('../img/map-2562138_1920.jpg');
-   
+    background-image: url('../img/map-2562138_1920.jpg'); 
 }
 
 .main-section {
     position: relative;
     background-color: rgba(109, 109, 109, 0.89);
-    width: 100%;
-    
+    width: 100%;  
     height: 100vh;
-    /*
-    padding: 0;
-    margin: 0;
-    margin-top: 1vh;
-    */
     box-shadow: 3px 3px 4px black;
     border-bottom: 1px solid black;
     display: flex;
@@ -63,21 +42,19 @@ body {
     background-repeat: no-repeat;
 }
 
-.main-section div {
-    
+.main-section div { 
     color: white;
     font-size: 5em;
     padding:  10px;
     border: 5px dashed black;
-    background-color: #3e4a6273;
+    background-color: #777a80bd;
     border-radius: 5px 40px 13px 30px;
     box-shadow: 3px 4px 12px black;
     text-shadow: 1px 2px black;
     -webkit-border-radius: 5px 40px 13px 30px;
     -moz-border-radius: 5px 40px 13px 30px;
     -ms-border-radius: 5px 40px 13px 30px;
-    -o-border-radius: 5px 40px 13px 30px;
-    
+    -o-border-radius: 5px 40px 13px 30px; 
 }
 .main-section .fas,.main-section .fab  {
     margin-top: 50px;
@@ -91,22 +68,12 @@ body {
     -o-transition: 0.15s color cubic-bezier(0.23, 1, 0.320, 1);
 }
 .main-section:nth-of-type(1) .fas:hover,.main-section:nth-of-type(2) .fas:hover, .main-section:nth-of-type(3) .fas:hover, .main-section:nth-of-type(4) .fas:hover{
-    
     color: black;
 }
-
-/*.main-section:nth-child .fas:hover{
-    
-    color: white;
-}*/
-
-
-
 
 #contactSpan {
     display: grid:
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 #contactSpan .fas, #contactSpan .fab {
     margin: 0.2em;
@@ -116,13 +83,13 @@ body {
     transition: 0.24s background-color ease-out;
     overflow: hidden;
 }
+
 #contactSpan .fas a, #contactSpan .fab a {
     text-decoration: none;
     width: 100%;
     height: 100%;
     /*kolor test*/
-    background-color: red;
-    
+    background-color: red;    
 }
 
 #contactSpan .fas:hover, #contactSpan .fab:hover {
@@ -139,9 +106,7 @@ nav#main {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     position: fixed;
     top:0;
-    z-index: 999;
-    
-    
+    z-index: 999;  
 }
 nav#main .nav_item {
     display: flex;
@@ -151,9 +116,7 @@ nav#main .nav_item {
     -webkit-transition: 0.3s transform ease;
     -moz-transition: 0.3s transform ease;
     -ms-transition: 0.3s transform ease;
-    -o-transition: 0.3s transform ease;
-
-    
+    -o-transition: 0.3s transform ease; 
 }
 nav#main .nav_item a {
     text-decoration: none;
@@ -177,120 +140,6 @@ nav#main .nav_item a:hover {
     padding: 0 0.5em;
 }
 
-/*
-nav#main .nav_item::before,nav#main .nav_item::after {
-    content: '';
-    width: 50px;
-    height: 20px;
-    position: relative;
-    margin: 0 0.5em;
-    
-}
-nav#main .nav_item::before {
-    top: 0;
-    left: 0;
-    background-color: #adadad;
-    border-top-left-radius: 10px;
-    
-}
-nav#main .nav_item::after {
-    bottom: 0;
-    right: 0;
-    background-color: #3e4a62;
-    border-bottom-right-radius:10px;
-    
-}
-*/
-/*.triger {
-    display: none;
-}
-
-@media only screen and (max-width: 376px) and (max-height: 668px) {
-    nav#main .nav_item a {
-            text-shadow: 2px 2px 6px black;
-    }
-    
-    
- nav#main {
-     height: 100%;
-    }
-    
-    .triger {
-    display: block;
-    position: absolute;
-    top: 10px;
-    color: red;
-    right: 10px;
-    font-size: x-large;
-    cursor: pointer;
-    z-index: 1000;
-    background-color: #f5f5f5de;
-    padding: 0.2em;
-    border-radius: 0.3em;
-    border: 2px dotted black;
-}  
-    nav#main {  
-    grid-template-columns: 1fr;
-   
-}
-    .main-section div
-    {
-    font-size: 2.3em;
-    }
-}
-@media only screen and (max-width: 476px) and (max-height: 780px) {
-    
-     nav#main .nav_item a {
-            text-shadow: 2px 2px 6px black;
-    }
-    
-    
- nav#main {
-     height: 100%;
-    }
-    
-    .triger {
-    display: block;
-    position: absolute;
-    top: 10px;
-    color: red;
-    right: 10px;
-    font-size: x-large;
-    cursor: pointer;
-    z-index: 1000;
-}  
-    nav#main {  
-    grid-template-columns: 1fr;
-   
-}
-    .main-section div
-    {
-    font-size: 2.3em;
-    }
-    #contactSpan {
-    position: fixed;
-    bottom: 0;
-    background-color: #3e4a62cc;
-    
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-    #contactSpan .fas, #contactSpan .fab {
-    
-    margin: 0;
-    font-size: xx-large;
-    background-color: #403d3d96;
-    padding: 0.2em 1.5em;
-    border-radius: 0.19em;
-    transition: 0.24s background-color ease-out;
-}
-    #contactSpan .fas:hover, #contactSpan .fab:hover {
-    background-color:#000000;
-}
-
-}
-*/
 .triger {
     position: absolute;
     top: 10px;
@@ -305,74 +154,60 @@ nav#main .nav_item::after {
     display: none;
 }
 
-
 @media only screen and (max-width: 376px) and (max-height: 668px) {
     nav#main .nav_item a {
             text-shadow: 2px 2px 6px black;
     }
-    
-    
+       
  nav#main {
      height: 100%;
      display: none;
      background-color: rgba(214, 215, 220, 0.84);
     }
     
-    
     .triger {
     display: block;
-    color: green;
-    
+    color: green; 
 }  
     nav#main {  
-    grid-template-columns: 1fr;
-   
+    grid-template-columns: 1fr;  
 }
-    .main-section div
-    {
+    .main-section div{
     font-size: 2.3em;
     }
 }
 @media only screen and (max-width: 476px) and (max-height: 780px) {
-    /*nav#main {
-     background-color: pink  
-    }*/
      nav#main .nav_item a {
-            text-shadow: 2px 2px 6px black;
+    text-shadow: 2px 2px 6px black;
     }
-    
-    
+     
  nav#main {
      height: 100%;
      display: none;
      background-color: rgba(214, 215, 220, 0.84);
     }
     
-    
-     .triger {
+ .triger {
     display: block;
-    color: green;
-    
+    color: green; 
 } 
+    
     nav#main {  
     grid-template-columns: 1fr;
-   
 }
-    .main-section div
-    {
+    
+    .main-section div{
     font-size: 2.3em;
     }
     #contactSpan {
     position: fixed;
     bottom: 0;
     background-color: #3e4a62cc;
-    /* height: 50vh; */
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
     #contactSpan .fas, #contactSpan .fab {
-    /* margin: 0.2em; */
     margin: 0;
     font-size: xx-large;
     background-color: #403d3d96;
@@ -380,16 +215,9 @@ nav#main .nav_item::after {
     border-radius: 0.19em;
     transition: 0.24s background-color ease-out;
 }
+    
     #contactSpan .fas:hover, #contactSpan .fab:hover {
     background-color:#000000;
 }
 
 }
-
-
-
-
-
-
-
-
