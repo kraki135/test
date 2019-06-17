@@ -49,7 +49,7 @@ koniec
 /*
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
- if(trigerr.style.color == 'green') {
+ if(trigerr.style.color === 'green') {
     /*mainNav.classList.add("activNAV");
     trigerr.classList.add("redADD");*/
   trigerr.classList.add("redADD");
