@@ -50,8 +50,8 @@ koniec
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
  if(mainNav.style.display === "none") {
-    mainNav.classList.add("activNAV");
-    trigerr.classList.add("redADD");
+    mainNav.classList.toggle("activNAV");
+    trigerr.classList.toggle("redADD");
  }else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
