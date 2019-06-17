@@ -1,5 +1,5 @@
- var trigerr = document.querySelector('.triger');
- var mainNav = document.querySelector('#main');   
+ const trigerr = document.querySelector('.triger');
+ const mainNav = document.querySelector('#main');   
  
 
 
@@ -38,7 +38,7 @@ if (trigerr.style.display === "none") {
 koniec
 */
 /*window.addEventListener('DOMContentLoaded', (event) => {*/
- document.addEventListener("DOMContentLoaded", function(event) {
+ document.addEventListener("DOMContentLoaded", function() {
     if (mainNav.style.display === "none") {
     trigerr.classList.toggle("activTRIG");
     }else {
