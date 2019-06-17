@@ -50,10 +50,11 @@ koniec
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
  if(trigerr.style.color === 'green') {
-    mainNav.classList.toggle("activNAV");
-    trigerr.classList.toggle("redADD");
+    /*mainNav.classList.add("activNAV");
+    trigerr.classList.add("redADD");*/
+  alert("kliknięto");
   console.log('działa');
- }/*else{
+ }else{alert("huj wie");}/*else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
  }*/
