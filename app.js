@@ -39,23 +39,27 @@ koniec
 */
 /*window.addEventListener('DOMContentLoaded', (event) => {*/
  document.addEventListener("DOMContentLoaded", function() {
-    if (mainNav.style.display === "none") {
-    trigerr.classList.toggle("activTRIG");
-    }else {
+    /*if (mainNav.style.display === "none") {
+    trigerr.classList.add("activTRIG");
+    }else if(mainNav.style.display === "none"){
     trigerr.classList.remove("activTRIG");
-    }
+    }*/
+  trigerr.classList.add("activTRIG");
 });
 
 
+/*
+świerze odkomentuj
 trigerr.addEventListener("click", function() { 
  if(mainNav.style.display === "none") {
-    mainNav.classList.toggle("activNAV");
-    trigerr.classList.toggle("redADD");
+    mainNav.classList.add("activNAV");
+    trigerr.classList.add("redADD");
  }else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
  }
 },false);
+*/
 /*
 świerze odkomentuj
 mainNav.addEventListener('click', function() { 
