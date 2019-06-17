@@ -1,5 +1,5 @@
- const trigerr = document.querySelector('.triger');
- const mainNav = document.querySelector('#main');   
+ var trigerr = document.querySelector('.triger');
+ var mainNav = document.querySelector('#main');   
  
 
 
@@ -39,10 +39,10 @@ koniec
 */
 /*window.addEventListener('DOMContentLoaded', (event) => {*/
  document.addEventListener("DOMContentLoaded", function() {
-    if (mainNav.style.display === "grid") {
-    trigerr.classList.remove("activTRIG");
+    if(mainNav.style.display == "grid") {
+    trigerr.classList.remove("activTRIG"); console.log("removeactivTRIG");
     }else{
-    trigerr.classList.add("activTRIG");
+    trigerr.classList.add("activTRIG"); console.log("addactivTRIG");
     }
   /*wiem że działa bez if trigerr.classList.add("activTRIG");*/
 });
