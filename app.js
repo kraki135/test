@@ -8,21 +8,28 @@
 
 
 trigerr.addEventListener("click", function() {
-    
-    if (mainNav.style.display === "grid") {
-      mainNav.style.display = "none";
-        trigerr.style.color = 'green';
+    if (trigerr.style.display === "none") {
+     consol.log("triger none - klik triger? imposible");
+    } else {
+      consol.log("triger widoczny- działa?");
+     if (mainNav.style.display === "grid") {
+          mainNav.style.display = "none";
+          trigerr.style.color = 'green';
     } else {
       mainNav.style.display = "grid";
         trigerr.style.color = 'red';
     }
+    }
+   
 
     });
 
     mainNav.addEventListener('click', function() {
         
-      if (trigerr.style.display !== "none") {
-       
+      if (trigerr.style.display === "none") {  
+      consol.log("triger none - klik menu i się chowa? imposible");
+      }else {
+       consol.log("menu niewidoczne- nie działa?");
         if (mainNav.style.display === "grid") {
           mainNav.style.display = "none";
             trigerr.style.color = 'green';
@@ -30,11 +37,10 @@ trigerr.addEventListener("click", function() {
           mainNav.style.display = "grid";
             trigerr.style.color = 'red';
         }
-
-
-     } 
-     }
-     );
+      }
+     
+    
+    });
 
     /*
     else if (mainNav.style.display === "grid" || trigerr.style.color === "red") {
