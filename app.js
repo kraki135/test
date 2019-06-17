@@ -49,13 +49,15 @@ koniec
 /*
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
- if(trigerr.className === "") {
+ if(trigerr.className === "greenADD") {
     /*mainNav.classList.add("activNAV");
     trigerr.classList.add("redADD");*/
   trigerr.classList.add("redADD");
+  trigerr.classList.remove("greenADD");
   console.log('kliknięto zielony');
- }else if(trigerr.className === "activTRIG") { 
-     trigerr.classList.add("redADD");
+ }else{ 
+     trigerr.classList.remove("redADD");
+     trigerr.classList.add("greenADD");
      console.log('kliknięto czerwony');
       }
  /*else{
