@@ -49,7 +49,7 @@ koniec
 /*
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
- if(mainNav.style.display === "none") {
+ if(trigerr.style.color === 'green') {
     mainNav.classList.toggle("activNAV");
     trigerr.classList.toggle("redADD");
   console.log('działa');
