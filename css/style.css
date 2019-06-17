@@ -41,8 +41,58 @@ html,body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.main-section::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+    border-bottom: 0.4em solid white;
+}
+/*.main-section:nth-of-type(1)::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    background-color: #00ffff63;
+    z-index: 1;
+    border-bottom: 0.4em solid white;
+}*/
+.main-section:nth-of-type(1)::before {
+    background-color: #187560a6;
+}
 
+.main-section:nth-of-type(2) {
+    background-image: url('../img/code-coder-codes-2194062.jpg');
+   
+}
+.main-section:nth-of-type(2)::before {
+    background-color: #080d84ad;
+}
+.main-section:nth-of-type(3) {
+    background-image: url('../img/clouds-crescent-moon-daylight-2162909.jpg');   
+}
+.main-section:nth-of-type(3)::before {
+    background-color: #ff090087;
+}
+.main-section:nth-of-type(4) {
+    background-image: url('../img/macbook-926425_1920.jpg');   
+}
+.main-section:nth-of-type(4)::before {
+    background-color: #9a00ff63;
+}
+.main-section:nth-of-type(5) {
+    background-image: url('../img/map-2562138_1920.jpg'); 
+}
+.main-section:nth-of-type(5)::before {
+    background-color: #3e4a62ab;
+}
 .main-section div { 
+    z-index:2;
     color: white;
     font-size: 5em;
     padding:  10px;
@@ -57,6 +107,7 @@ html,body {
     -o-border-radius: 5px 40px 13px 30px; 
 }
 .main-section .fas,.main-section .fab  {
+     z-index:2;
     margin-top: 50px;
     cursor: pointer;
     font-size: 5em;
