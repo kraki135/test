@@ -217,10 +217,13 @@ nav#main .nav_item a:hover {
      background-color: rgba(214, 215, 220, 0.84);
     }
     
-    .triger {
+   /*
+    komb
+     .triger {
     display: block;
     color: green; 
 }  
+    */
     nav#main {  
     grid-template-columns: 1fr;  
 }
@@ -239,10 +242,13 @@ nav#main .nav_item a:hover {
      background-color: rgba(214, 215, 220, 0.84);
     }
     
- .triger {
+ /*
+    komb
+    .triger {
     display: block;
     color: green; 
-} 
+}
+    */ 
     
     nav#main {  
     grid-template-columns: 1fr;
@@ -273,3 +279,19 @@ nav#main .nav_item a:hover {
 }
 
 }
+.activNAV {
+    display: grid;   
+}
+.activTRIG {
+    display: block;
+}
+.noneADD {
+    display: none;   
+}
+.redADD {
+    color: red;   
+}
+.greenADD {
+color: green;
+}
+
