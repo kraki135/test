@@ -41,7 +41,7 @@ koniec
  document.addEventListener("DOMContentLoaded", function() {
     if (mainNav.style.display === "none") {
     trigerr.classList.add("activTRIG");
-    }else if(mainNav.style.display === "grid"){
+    }else{
     trigerr.classList.remove("activTRIG");
     }
   /*wiem że działa bez if trigerr.classList.add("activTRIG");*/
