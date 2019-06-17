@@ -27,9 +27,8 @@ trigerr.addEventListener("click", function() {
     mainNav.addEventListener('click', function() {
         
       if (trigerr.style.display === "none") {  
-      /*consol.log("triger none - klik menu i się chowa? imposible");*/
-      }else {
-       /*consol.log("menu niewidoczne- nie działa?");*/
+      
+      }else if(trigerr.style.display === "block"){
         if (mainNav.style.display === "grid") {
           mainNav.style.display = "none";
             trigerr.style.color = 'green';
@@ -41,6 +40,26 @@ trigerr.addEventListener("click", function() {
      
     
     });
+
+/*
+mainNav.addEventListener('click', function() {
+        
+      if (trigerr.style.display === "none") {  
+      
+      }else {
+       
+        if (mainNav.style.display === "grid") {
+          mainNav.style.display = "none";
+            trigerr.style.color = 'green';
+        } else {
+          mainNav.style.display = "grid";
+            trigerr.style.color = 'red';
+        }
+      }
+     
+    
+    });
+*/
 
     /*
     else if (mainNav.style.display === "grid" || trigerr.style.color === "red") {
