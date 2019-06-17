@@ -24,6 +24,22 @@ trigerr.addEventListener("click", function() {
 
     });
 
+mainNav.addEventListener('click', function() {
+if (trigerr.style.display === "none") {
+     
+    } else {
+     if (mainNav.style.display === "grid") {
+          mainNav.style.display = "none";
+          trigerr.style.color = 'green';
+    } else {
+      mainNav.style.display = "grid";
+        trigerr.style.color = 'red';
+    }
+    }
+},false);
+
+
+/*
     mainNav.addEventListener('click', function() {
         
       if (trigerr.style.display === "none") {  
@@ -35,14 +51,12 @@ trigerr.addEventListener("click", function() {
             trigerr.style.color = 'green';
                                            }  
                                              }
-        /*zm} else {
-          mainNav.style.display = "grid";
-            trigerr.style.color = 'red';
-        }*/
+       
                                             }
      
     
-                                             });
+                                             }); ost konfiguracja
+*/
 
 /*
 mainNav.addEventListener('click', function() {
