@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     if (mainNav.style.display === "none") {
     trigerr.classList.toggle("activTRIG");
     }else {
-    triger.classList.remove("activTRIG");
+    trigerr.classList.remove("activTRIG");
     }
 });
 
