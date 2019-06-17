@@ -37,15 +37,13 @@ if (trigerr.style.display === "none") {
 
 koniec
 */
-/*window.addEventListener('DOMContentLoaded', (event) => {*/
+
+/*to się przyda 
  document.addEventListener("DOMContentLoaded", function() {
-    if(mainNav.style.display === "grid") {
     trigerr.classList.remove("activTRIG"); console.log("removeactivTRIG");
-    }else{
-    trigerr.classList.add("activTRIG"); console.log("addactivTRIG");
-    }
-  /*wiem że działa bez if trigerr.classList.add("activTRIG");*/
+    
 });
+*/
 
 
 /*
