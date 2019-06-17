@@ -47,7 +47,7 @@ koniec
 
 
 /*
-świerze odkomentuj
+świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
  if(mainNav.style.display === "none") {
     mainNav.classList.add("activNAV");
@@ -57,7 +57,7 @@ trigerr.addEventListener("click", function() {
     trigerr.classList.remove("redADD");
  }
 },false);
-*/
+
 /*
 świerze odkomentuj
 mainNav.addEventListener('click', function() { 
