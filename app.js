@@ -29,10 +29,10 @@ trigerr.addEventListener("click", function() {
       if (trigerr.style.display === "none") {  
       
       }else if(trigerr.style.display === "block"){
-        if (mainNav.style.display === 'grid' && trigerr.style.color = 'red') {
+        if ((mainNav.style.display === 'grid') && (trigerr.style.color = 'red')) {
           mainNav.style.display = "none";
             trigerr.style.color = 'green';
-        } else if(mainNav.style.display === 'none' && trigerr.style.color = 'green'){
+        } else if((mainNav.style.display === 'none') && (trigerr.style.color = 'green')){
           mainNav.style.display = "grid";
             trigerr.style.color = 'red';
         }
