@@ -52,10 +52,11 @@ trigerr.addEventListener("click", function() {
  if(mainNav.style.display === "none") {
     mainNav.classList.toggle("activNAV");
     trigerr.classList.toggle("redADD");
- }else{
+  console.log('działa');
+ }/*else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
- }
+ }*/
 },false);
 
 /*
