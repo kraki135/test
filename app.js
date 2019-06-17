@@ -3,6 +3,9 @@
  
 
 
+/*
+działające wcześniej start
+
 trigerr.addEventListener("click", function() {
     if (trigerr.style.display === "none") {
     } else {
@@ -32,6 +35,41 @@ if (trigerr.style.display === "none") {
     }
 },false);
 
+koniec
+*/
+window.addEventListener('DOMContentLoaded', (event) => {
+    if (mainNav.style.display === "none") {
+    trigerr.classList.toggle("activTRIG");
+    }else {
+    triger.classList.remove("activTRIG");
+    }
+});
+
+
+trigerr.addEventListener("click", function() { 
+ if(mainNav.style.display === "none") {
+    mainNav.classList.toggle("activNAV");
+    trigerr.classList.toggle("redADD");
+ }else{
+    mainNav.classList.remove("activNAV");
+    trigerr.classList.remove("redADD");
+ }
+},false);
+/*
+świerze odkomentuj
+mainNav.addEventListener('click', function() { 
+    if(trigerr.className === "activTRIG") {
+       if(trigerr.className === "redADD") {
+          mainNav.classList.remove("activNAV");
+          trigerr.classList.remove("redADD");
+            }else {
+             
+                  }
+    }else{
+     
+    }
+},false);
+*/
 
 /*
     mainNav.addEventListener('click', function() {
