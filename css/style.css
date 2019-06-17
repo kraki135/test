@@ -218,13 +218,12 @@ nav#main .nav_item a:hover {
      background-color: rgba(214, 215, 220, 0.84);
     }
     
-   /*
-    komb
+   
+    
      .triger {
-    display: block;
-    color: green; 
-}  
-    */
+            display: block;
+              }  
+    
     nav#main {  
     grid-template-columns: 1fr;  
 }
@@ -243,13 +242,9 @@ nav#main .nav_item a:hover {
      background-color: rgba(214, 215, 220, 0.84);
     }
     
- /*
-    komb
-    .triger {
-    display: block;
-    color: green; 
-}
-    */ 
+         .triger {
+            display: block;
+              }  
     
     nav#main {  
     grid-template-columns: 1fr;
