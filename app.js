@@ -37,7 +37,8 @@ if (trigerr.style.display === "none") {
 
 koniec
 */
-window.addEventListener('DOMContentLoaded', (event) => {
+/*window.addEventListener('DOMContentLoaded', (event) => {*/
+ document.addEventListener("DOMContentLoaded", function(event) {
     if (mainNav.style.display === "none") {
     trigerr.classList.toggle("activTRIG");
     }else {
