@@ -55,11 +55,12 @@ trigerr.addEventListener("click", function() {
   trigerr.classList.add("redADD");
   trigerr.classList.remove("greenADD");
   console.log('kliknięto zielony');
- }else{ 
+ }else if(trigerr.className === "redADD"){ 
      trigerr.classList.remove("redADD");
      trigerr.classList.add("greenADD");
      console.log('kliknięto czerwony');
       }
+ else {alert('dupa');}
  /*else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
