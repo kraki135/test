@@ -49,7 +49,7 @@ koniec
 /*
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
- if(trigerr.className === "greenADD") {
+ if(trigerr.style.color === 'green';) {
     /*mainNav.classList.add("activNAV");
     trigerr.classList.add("redADD");*/
   trigerr.classList.add("redADD");
@@ -60,7 +60,7 @@ trigerr.addEventListener("click", function() {
      trigerr.classList.add("greenADD");
      console.log('kliknięto czerwony');
       }
- else {alert('dupa');}
+ else {console.log('dupa');}
  /*else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
