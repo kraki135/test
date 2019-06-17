@@ -39,12 +39,12 @@ koniec
 */
 /*window.addEventListener('DOMContentLoaded', (event) => {*/
  document.addEventListener("DOMContentLoaded", function() {
-    /*if (mainNav.style.display === "none") {
+    if (mainNav.style.display === "none") {
     trigerr.classList.add("activTRIG");
     }else if(mainNav.style.display === "none"){
     trigerr.classList.remove("activTRIG");
-    }*/
-  trigerr.classList.add("activTRIG");
+    }
+  /*wiem że działa bez if trigerr.classList.add("activTRIG");*/
 });
 
 
