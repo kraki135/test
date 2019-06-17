@@ -34,15 +34,15 @@ trigerr.addEventListener("click", function() {
             mainNav.style.display = "none";
             trigerr.style.color = 'green';
                                            }  
-          
-        /*} else {
+                                             }
+        /*zm} else {
           mainNav.style.display = "grid";
             trigerr.style.color = 'red';
         }*/
                                             }
      
     
-    });
+                                             });
 
 /*
 mainNav.addEventListener('click', function() {
