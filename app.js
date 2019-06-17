@@ -49,13 +49,16 @@ koniec
 /*
 świerze odkomentuj*/
 trigerr.addEventListener("click", function() { 
- if(trigerr.className !== "redADD") {
+ if(trigerr.style.color == 'green') {
     /*mainNav.classList.add("activNAV");
     trigerr.classList.add("redADD");*/
   trigerr.classList.add("redADD");
-  alert("kliknięto");
-  console.log('działa');
- }else{alert("huj wie"); console.log('chyba niedziała');trigerr.classList.remove("redADD");}/*else{
+  console.log('kliknięto zielony');
+ }else{ 
+     console.log('kliknięto czerwony');
+     trigerr.classList.remove("redADD");
+      
+      }/*else{
     mainNav.classList.remove("activNAV");
     trigerr.classList.remove("redADD");
  }*/
