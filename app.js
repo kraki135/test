@@ -39,7 +39,7 @@ koniec
 */
 /*window.addEventListener('DOMContentLoaded', (event) => {*/
  document.addEventListener("DOMContentLoaded", function() {
-    if(mainNav.style.display == "grid") {
+    if(mainNav.style.display === "grid") {
     trigerr.classList.remove("activTRIG"); console.log("removeactivTRIG");
     }else{
     trigerr.classList.add("activTRIG"); console.log("addactivTRIG");
